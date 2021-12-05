@@ -10,11 +10,10 @@ void updateShit(int inputNum, int** board, bool** bboard);
 int checkForWin(int winNum, int** board, bool** bboard);
 bool checkRows(int** board, bool** bboard);
 bool checkCols(int** board, bool** bboard);
-bool checkDiags(int** board, bool** bboard);
 
 int main(void) {
   FILE* fp;
-  fp = fopen("retardsinput.txt","r");
+  fp = fopen("input.txt","r");
   char sneed[1000];
   fgets(sneed,1000,fp);
   char* chuck;
@@ -170,28 +169,6 @@ bool checkCols(int** board, bool** bboard){
       }
       if(count == 5)
         return 1;
-  }
-  return 0;
-}
-
-bool checkDiags(int** board, bool** bboard){
-  int count = 0;
-  for(int i = 0; i < bingosize; i++){
-    if(bboard[i][i] == true){
-      count++;
-    }
-  }
-  if(count == 5){
-    return 1;
-  }
-  count = 0;
-  for(int i = bingosize - 1; i >= 0; i--){
-    if(board[i][i] == -1){
-      count++;
-    }
-  }
-  if(count == 5){
-    return 1;
   }
   return 0;
 }
