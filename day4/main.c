@@ -1,9 +1,12 @@
+//**Copyright Terry A. Davis @2021**
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
 
 #define bingosize 5
+
 int** getBoard(FILE* fp);
 bool** createBoolBoard();
 void updateShit(int inputNum, int** board, bool** bboard);
