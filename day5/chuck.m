@@ -1,4 +1,4 @@
-array = sparse(1000000,1000000);
+array = sparse(1000,1000);
 array = rfile(array);
 [row, col] = find(array >= 2);
 [row,col];
