@@ -1,5 +1,5 @@
-days = 256;
-chuck = readmatrix('input.txt');
+days = 18;
+chuck = readmatrix('input2.txt');
 sneed = zeros(9,1);
 for i = 1:size(chuck,2)
     sneed(chuck(i)+1,1) = sneed(chuck(i)+1,1) + 1;
@@ -12,7 +12,7 @@ end
 %   parents' delays exist (sneed) to get a vector that when summed
 %   gives us the total amount.
 %
-%Operation is actually O(1) i think??? so O(n) since we read input.
+%Operation is actually O(log(n)) i think??? so O(n) since we read input.
 childSpawner = [
     0,1,0,0,0,0,0,0,0;
     0,0,1,0,0,0,0,0,0;
