@@ -1,7 +1,7 @@
 chuck = readmatrix('input.txt');
 temp = chuck;
 sum = 0;
-buck = zeros(size(chuck,2));
+%Calc part 1 sum brute-force.
 for i = 1:size(chuck,2)
     sum = 0;
     for j = 1:size(chuck,2)
@@ -10,6 +10,8 @@ for i = 1:size(chuck,2)
     temp(i) = sum;
 end
 min(temp)
+
+%Calc part 2 sum brute force.
 sneed = zeros(size(chuck,2));
 for i = 1:size(chuck,2)
     sum = 0;
