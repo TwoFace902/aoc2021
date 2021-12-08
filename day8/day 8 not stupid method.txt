@@ -1,0 +1,16 @@
+we're guaranteed each digit so you can figure out right side via
+1 gives you 'cf'
+4 gives you 'bdcf'
+7 gives you 'acf'
+
+comparing 1 to 7 and taking the odd one out gives you the mapping to 'a'.
+knowing 'a', add the premapped 'a' to 4 and check if it's substring of length 6 boy. it will not be 6 because of 'c'. It will not be 0 because of 'd'.
+so the odd one out of the compared 4 + 'a' and the two length 6s will give us the mapping to 'g'.
+knowing 'a' and 'g', add both of those to 4 to get one off of 8. then the odd one out will be mapping to 'e'.
+knowing 'a' and 'g', add both of those to 1 to get one off of 3. then the odd one out will be mapping to 'd'.
+knowing 'd', add it to 1 to get one off of 4. then the odd one out will be mapping to 'b'.
+
+now all we need is the mapping to 'c' and 'f'. you can use 2,5,6 to get this.
+remove mapped abdeg from 6 to get 'f'. you now know what 'c' is by process of elimination.
+
+gg ez
