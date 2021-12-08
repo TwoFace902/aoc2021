@@ -1,4 +1,4 @@
-chuck = readmatrix('input.txt');
+chuck = readmatrix('rinput.txt');
 sum = [0;0];
 %Calc part 1
 middle = median(chuck,'all');
