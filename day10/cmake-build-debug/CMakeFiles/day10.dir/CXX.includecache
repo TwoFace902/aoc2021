@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Brandon/Documents/aoc2021/day10/main.cpp
+iostream
+-
+stack
+-
+queue
+-
+map
+-
+stdio.h
+-
+cstring
+-
+vector
+-
+algorithm
+-
+

@@ -1,0 +1,3 @@
+C:/Users/Brandon/Documents/aoc2021/day10/cmake-build-debug/CMakeFiles/day10.dir
+C:/Users/Brandon/Documents/aoc2021/day10/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Brandon/Documents/aoc2021/day10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
