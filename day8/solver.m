@@ -1,4 +1,4 @@
-file = fopen("bigboy.txt");
+file = fopen("rinput.txt");
 n = fgetl(file);
 count = 0;
 i = 1;
